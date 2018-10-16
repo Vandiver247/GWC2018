@@ -17,3 +17,13 @@
     text-decoration:none;
 }
 
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.column {
+    float:left;
+    padding-left:1%;
+    padding-right:1%;
+}
