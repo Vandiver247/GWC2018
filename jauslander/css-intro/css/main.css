@@ -2,10 +2,6 @@ p {
     color: blue;
 }
 
-h3 {
- color: green;   
-}
-
-h1 {
-    color: indigo;
+.column {
+    color: green;
 }
