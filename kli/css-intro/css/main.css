@@ -16,3 +16,12 @@
     padding:14px 16px;
     text-decoration: none;
 }
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.coulomn {
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
