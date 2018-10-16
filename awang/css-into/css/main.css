@@ -1,5 +1,9 @@
 .header{
     background-color: #F1F1F1;
     text-align: center;
-    padding:20px;
+    padding: 10px;
+}
+.topnav{
+    overflow:hidden;
+    background-color: #FFE737;
 }
