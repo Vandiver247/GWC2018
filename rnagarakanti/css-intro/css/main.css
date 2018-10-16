@@ -22,3 +22,10 @@
     background-color: #ddd;
     color: black;
 }
+
+.column {
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
