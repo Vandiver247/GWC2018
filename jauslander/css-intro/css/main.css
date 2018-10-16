@@ -1,7 +1,7 @@
-p {
+.column {
     color: blue;
 }
 
-.column {
+.side {
     color: green;
 }
