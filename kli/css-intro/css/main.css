@@ -3,3 +3,8 @@
     text-align: center;
     padding: 20px;
 }
+
+.topnav { 
+    overflow: hidden;
+    background-color: #333;
+}
