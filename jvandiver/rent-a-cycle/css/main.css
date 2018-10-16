@@ -10,7 +10,7 @@
 }
 
 .topnav a {
-    float: right;
+    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -21,4 +21,16 @@
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.column {
+    float: left;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
 }
