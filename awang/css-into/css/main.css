@@ -1,3 +1,6 @@
-.column.side{
+.column{
     color: blue;
+}
+.side{
+    color:green;
 }
