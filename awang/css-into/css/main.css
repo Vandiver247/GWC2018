@@ -1,7 +1,7 @@
 .header {
     background-color: #F1F1F1;
     text-align: center;
-    padding: 10px;
+    padding:10px;
 }
 
 .topnav {
@@ -23,4 +23,8 @@
     color:black;
 }
 
-.column
+.column{
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
