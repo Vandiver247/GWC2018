@@ -18,7 +18,7 @@
 }
 
 .topnav a:hover {
-    background-color: white;
+    background-color: #ddd;
     color: black;
 }
 
@@ -26,4 +26,19 @@
     float:left;
     padding-left:1%;
     padding-right:1%;
+}
+
+.column.side {
+    width:23%;
+}
+
+.column.middle{
+    width:48%;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding:10px;
+    
 }
