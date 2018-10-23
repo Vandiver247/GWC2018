@@ -28,4 +28,7 @@
     padding-right:1%;
 }
 
-.
+.column.side {
+    width:23%;
+}
+
