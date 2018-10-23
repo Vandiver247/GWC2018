@@ -20,7 +20,7 @@
 
 .topnav a:hover {
     background-color: #ddd;
-    color: Black;
+    color: black;
 }
 
 .column {
@@ -31,4 +31,8 @@
 
 .column.side {
     width: 23%;
+}
+
+.column.middle {
+    width: 48%;
 }
