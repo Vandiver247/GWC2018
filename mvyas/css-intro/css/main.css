@@ -18,7 +18,7 @@
 }
 
 .topnav a:hover {
-    background-color: white;
+    background-color: #ddd;
     color: black;
 }
 
@@ -27,3 +27,5 @@
     padding-left:1%;
     padding-right:1%;
 }
+
+.
