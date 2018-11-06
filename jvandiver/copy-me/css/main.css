@@ -29,7 +29,8 @@
 }
 
 .top{
-    float: left;
-    width: 80%;
+    width: 76%;
     display: inline-block;
+    float: right;
+    padding: 2%;
 }
