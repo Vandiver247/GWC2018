@@ -30,7 +30,7 @@
 }
 .column.side {
     width: 23%;
-    
+}    
 .column.middle {
     width: 48%;
 }
@@ -38,4 +38,3 @@
     background-color: #F1F1F1;
     text-align: center;
     padding: 10px;
-}
