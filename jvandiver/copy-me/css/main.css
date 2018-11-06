@@ -18,9 +18,11 @@
     width: 100%;
     padding-top: 16px;
     padding-bottom: 16px;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.topnav a:hover {
+.navigation a:hover {
     background-color: #ddd;
     color: black;
 }
