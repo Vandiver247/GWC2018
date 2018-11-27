@@ -36,9 +36,10 @@
       </div>
       <script>
         function showResults() {
-          var form = document.getElementById("turtleform");
-          var inputValue = form.get("turtlename");
-          window.alert(inputValue);
+          //var form = document.getElementById("turtleform");
+          //var inputValue = form.get("turtlename").value;
+          var formElements = document.forms['turtleform'].elements['turtlename'].value;
+          window.alert(formElements);
         }
       </script>
   </body>
