@@ -17,7 +17,7 @@
           </p>
       </div>
       <div class="registration form">
-          <form>
+          <form id="turtleform">
               Turtle Name:<br/>
               <input type="text" name="turtlename"/><br/>
               Age:<br/>
@@ -30,9 +30,14 @@
               <input type="checkbox" name="helmet" value="helmet"/> Helmet<br/>
               <input type="checkbox" name="unicycle" value="unicycle"/> Unicycle<br/>
               <input type="checkbox" name="sunstuff" value="sunstuff"/> Sunscreen and Sunglasses<br/>
-              <input type="submit" onclick="document.write(5+6)" value="Submit"/>
+              <input type="submit" onclick="showResults()" value="Submit"/>
               <input type="reset" value="Blow this Up!!!"/>
           </form>
       </div>
+      <script>
+        function showResults() {
+          window.alert("Turtle Name: " + document.forms["turtleform"].elements["turtlename"].value);
+        }
+      </script>
   </body>
  </html>
