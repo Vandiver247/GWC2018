@@ -11,8 +11,15 @@
               <input type="text" name="turtlename"/><br/>
               Owner Name:<br/>
               <input type="text" name="ownername"/><br/>
-              <input type="submit" value="Register Turtle"/>
+              <input type="submit" value="Register Turtle" onClick="showResults()"/>
           </form>
       </div>
+      <script>
+          function showResults() {
+              var formElements = document.forms["turtleinfo"].elements["turtlename"].value;
+              var formElementsTwo = document.forms["turtleinfo"].elements["ownername"].value;
+              window.alert("Congrats " + formElementsTwo + " ! Turtle " + formElements + " has been registered for the Death Race!");
+          }
+      </script>
   </body>
  </html>
