@@ -2,14 +2,14 @@
    <html>
        <head>
        <meta charset="utf-8">
-       <title>Turtle Form</title>
+       <title>I <3 Turtles</title>
        <head/>
        <body>
            <div class="turtleform">
                <form id="turtleinfo">
-                   Turtle Name:<br/>
+                   Volunteer:<br/>
                    <input type="text"name="turtlename"><br/>
-                   Owner Name:<br/>
+                   Reason why you are saving the turtles:<br/>
                    <input type="text"name="ownername"><br/>
                    <input type="submit"value="Register Turtle" onclick="showResults()">
                </form>
@@ -17,7 +17,11 @@
            <script>
                function showResults() {
                    var formElements = document.forms["turtleinfo"].elements["turtlename"].value;
+<<<<<<< HEAD
                    window.alert("Thanks: Username " + formElements + " for helping stop the Death Race!");
+=======
+                   window.alert("Thanks Username " + formElements + " for helping stop the Death Race!");
+>>>>>>> 3cf4871e51560c9d1a0f5422deda5a293c313725
                }
            </script>
        </body>
