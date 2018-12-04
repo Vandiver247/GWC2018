@@ -27,21 +27,22 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae imperdiet ex, in gravida quam. Nunc molestie aliquam porttitor. Pellentesque pretium egestas purus, sit amet varius turpis varius id. Curabitur vel quam ultricies est aliquet cursus. Maecenas ultrices fermentum mi ac iaculis. Nunc nunc tortor, tincidunt ut tortor maximus, luctus condimentum nibh. Curabitur magna nibh, pharetra feugiat nibh nec, tempus elementum nibh. Sed maximus, purus in fringilla lobortis, nulla sem laoreet dui, vel accumsan tellus arcu nec eros. Vivamus finibus, mi id facilisis fermentum, magna libero scelerisque mi, non pulvinar ipsum lorem eget urna. Sed tempor ipsum mi, vitae elementum dui dapibus ac.
             </p>
         </div>
-        <br/>
-        <img src="https://i1.wp.com/img2.wikia.nocookie.net/__cb20071108213148/pixar/images/6/6d/Crush.jpg">
+        <div class="image">
+            <img src="https://i1.wp.com/img2.wikia.nocookie.net/__cb20071108213148/pixar/images/6/6d/Crush.jpg">
+        </div>
         <div class="turtleform">
             <form id="turtleinfo">
-                Turtle Name:<br/>
-                <input type="text" name="turtlename"/><br/>
-                Owner Name:<br/>
-                <input type="text" name="ownername"/><br/>
+                Volunteer name:<br/>
+                <input type="text" name="volunteername"/><br/>
+                Reason why you are saving the turtles:<br/>
+                <input type="text" name="reason"/><br/>
                 <input type="submit" value="Register Turtle" onclick="showResults()"/>
             </form>
         </div>
         <script>
             function showResults() {
-                var formElements = document.forms["turtleinfo"].elements["turtlename"].value;
-                var formElements = document.forms["turtleinfo"].elements["ownername"].value;
+                var formElements = document.forms["turtleinfo"].elements["volunteername"].value;
+                var formElements2 = document.forms["turtleinfo"].elements["reason"].value;
                 window.alert("Congrats! Turtle " + formElements + " has been registered by " + formElements + " for the Turtle Death Race.");
             }
     </body>
