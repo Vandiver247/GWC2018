@@ -10,7 +10,7 @@
 }
 
 .topnav a {
-    float: left;
+    float: center;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -24,16 +24,9 @@
 }
 
 .column {
-    float: center;
-    padding-left: 1%;
-    padding-right: 1%;
+    float: left;
+    width: 50%;
 }
-
-.column.side {
-    width: 48%;
-}
-
-
 
 .footer {
     background-color: #F1F1F1;
