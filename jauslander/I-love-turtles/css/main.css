@@ -24,22 +24,22 @@
     color: black;
 }
 
-.column {
-    float: left;
+.column.side{
+    float: right;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-.column.side {
+.column.right a {
     width: 23%;
+    float: right;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
-.column.middle {
-    width: 48%;
-}
 
 .footer {
-    background-color: #F1F1F1;
+    background-color: #00ff2e;
     text-align: center;
     padding: 10px;
 }
