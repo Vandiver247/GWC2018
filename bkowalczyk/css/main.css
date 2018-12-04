@@ -1,5 +1,5 @@
 .header {
-    background-color: #F1F1F1;
+    background-color: #24ff00;
     text-align: center;
     padding: 20px;
 }
@@ -12,7 +12,7 @@
 .topnav a {
     float: center;
     display: block;
-    color: #f2f2f2;
+    color: #24ff00;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +29,7 @@
 }
 
 .footer {
-    background-color: #F1F1F1;
+    background-color: #24ff00;
     text-align: center;
     padding: 10px;
 }
