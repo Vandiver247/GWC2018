@@ -28,5 +28,21 @@
             </p>
         </div>
         <br/>
+        <img src="https://i1.wp.com/img2.wikia.nocookie.net/__cb20071108213148/pixar/images/6/6d/Crush.jpg">
+        <div class="turtleform">
+            <form id="turtleinfo">
+                Turtle Name:<br/>
+                <input type="text" name="turtlename"/><br/>
+                Owner Name:<br/>
+                <input type="text" name="ownername"/><br/>
+                <input type="submit" value="Register Turtle" onclick="showResults()"/>
+            </form>
+        </div>
+        <script>
+            function showResults() {
+                var formElements = document.forms["turtleinfo"].elements["turtlename"].value;
+                var formElements = document.forms["turtleinfo"].elements["ownername"].value;
+                window.alert("Congrats! Turtle " + formElements + " has been registered by " + formElements + " for the Turtle Death Race.");
+            }
     </body>
 </html>
