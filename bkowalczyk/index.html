@@ -32,17 +32,17 @@
           
           <div class="turtleform">
             <form id="turtleinfo">
-                Turtle Name:<br/>
+                Volunteer name:<br/>
                 <input type="text" name="Volunteer name"/><br/>
-                Owner Name:<br/>
+                Reason why you are saving the turtles:<br/>
                 <input type="text" name="Reason why you are volunteering"/><br/>
                 <input type="submit" value="Register Turtle" onclick="showResults()"/>
             </form>
         </div>
         <script>
             function showResults() {
-                var formElements = document.forms["turtleinfo"].elements["turtlename"].value;
-                window.alert("Congrats: Thnaks " + formElements + " for helping stop the Death Race!");
+                var formElements = document.forms["turtleinfo"].elements["Volunteer name"].value;
+                window.alert("Congrats: Thanks " + formElements + " for helping stop the Death Race!");
             }
         </script>
 
