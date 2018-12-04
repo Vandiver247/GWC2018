@@ -1,5 +1,5 @@
 .header {
-    background-color:green;
+    background-color:#4bf442;
     text-align:center;
     padding:20px;
     overflow: hidden;
@@ -23,7 +23,7 @@
 .topnav a{
     
     display:block;
-    color: green;
+    color: #4bf442;
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
@@ -35,15 +35,18 @@
 }
 
 .column {
-    float:left;
     padding-left:1%;
     padding-right:1%;
 }
 
 .column.side {
-    width:23%;
+    width:50%;
 }
 
+.column.right {
+    width:50%;
+    float:right;
+}
 .footer {
     background-color: #f1f1f1;
     text-align: center;
