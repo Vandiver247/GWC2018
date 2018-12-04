@@ -1,18 +1,18 @@
 .header {
-    background-color: #B1B1B1;
+    background-color: #a1a1a1;
     text-align: center;
     padding: 20px;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #433;
+    background-color: #511;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #b2b2b2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,12 +30,9 @@
 }
 
 .column.side {
-    width: 23%;
+    width: 50%;
 }
 
-.column.middle {
-    width: 48%;
-}
 
 .footer {
     background-color: #F1F1F1;
