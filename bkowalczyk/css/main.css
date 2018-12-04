@@ -1,12 +1,12 @@
 .header {
-    background-color: #a1a1a1;
+    background-color: #66ff66;
     text-align: center;
     padding: 20px;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #511;
+    background-color: #100;
 }
 
 .topnav a {
@@ -20,7 +20,7 @@
 
 .topnav a:hover {
     background-color: #ffd;
-    color: black;
+    color: blue;
 }
 
 .column {
@@ -30,9 +30,12 @@
 }
 
 .column.side {
-    width: 50%;
+    width: 23%;
 }
 
+.column.middle {
+    width: 48%;
+}
 
 .footer {
     background-color: #F1F1F1;
