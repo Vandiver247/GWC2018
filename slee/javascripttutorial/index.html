@@ -11,13 +11,36 @@
                 <input type="text" name="turtlename"/><br/>
                 Owner Name:<br/>
                 <input type="text" name="ownername"/><br/>
-                <input type="submit" value="Register Form" onclick="showResults()"/>
+                Gender of your Turtle:<br/>
+                <input type="radio" name="gender" value="female" checked/> Female<br/>
+                <input type="radio" name="gender" value="Male"/> Male<br/>
+                How Many People Are You Bringing (including you):<br/>
+                <input type="number" name="how many people are you bringing"/><br/>
+                Skill Level:<br/>
+                <input type="radio" name="skill" value="beginner" checked/> Beginner<br/>
+                <input type="radio" name="skill" value="intermeditate"/> Intermediate<br/>
+                <input type="radio" name="skill" value="advanced"/> Advanced<br/>
+                Equipment Needed:<br/>
+                <input type="checkbox" name="helmet" value="helmet"/> Helmet<br/>
+                <input type="checkbox" name="unicycle" value="unicycle"/> Unicycle<br/>
+                <input type="checkbox" name="sunstuff" value="sun block"/> Sun Block<br/>
+                Type Of Turtle:<br/>
+                <input type="radio" name="type" value="snappins"/> Snappins<br/>
+                <input type="radio" name="type" value="tortise"/> Tortise<br/>
+                <input type="radio" name="type" value="carbonemys"/> Carbonemys<br/>
+                Any Disabilities:<br/>
+                <input type="radio" name="any" value="yes" checked/> Yes<br/>
+                <input type="radio" name="any" value="no"/> No<br/>
+                If Yes Write Disablitiy:<br/>
+                <input type="text" name="Disability"/><br/>
+                <input type="reset" value=Reset>
+                <input type="submit" value=Submit>
             </form>
         </div>
         <script>
             function showResults(){
                 var formElements= document.forms["turtleinfo"].elements["turtlename"].value;
-                window.alert("Conngrats: Turtle " + formElements + "has been registered for the Death Race");
+                window.alert("Congrats: Turtle " + formElements + "has been registered for the Death Race");
             }
         </script>
     </body>
