@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Turtles are Kewl</title>
+    </head>
+    <body>
+        <div class="turtleform">
+            <form id="turtleinfo">
+                Turtle Name:<br/>
+                <input type="text" name="turtlename"/><br/>
+                Owner Name:<br/>
+                <input type:"text" name="ownername"/><br/>
+                <input type="submit" value="Register Turtle" onclick="showResults()"/>
+            </form>
+        </div>
+        <script>
+            function showResults() {
+                var formElements = document.forms["turtleinfo"].elements["turtlename"].value;
+                window.alert("Congrats: Turtle" + formElements + "has been registered for the Death Race!")
+            }
+        </script>
+    </body>
+</html>
