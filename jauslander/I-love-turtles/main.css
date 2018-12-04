@@ -5,11 +5,6 @@
 }
 
 .topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.topnav a {
     display: block;
     color:#F2F2F2;
     text-align: center;
@@ -17,12 +12,14 @@
     text-decoration: none;
 }
 
-.column {
+.column left{
     float: left;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-.column.side {
-    width: 23%;
+.column right {
+    float: right;
+    padding-left: 1%;
+    padding-right: 1%;
 }
