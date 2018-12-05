@@ -24,9 +24,24 @@ a:link {
 }
 
 a:hover {
-    color: hotpink;
+   background-color: #ddd; 
+    color: #000000;
   }  
     /* selected link */
 a:active {
     color: blue;
+}
+
+.column {
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.column.side {
+    width: 23%;
+}
+
+.column.middle {
+    width: 48%;
 }
