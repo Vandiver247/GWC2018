@@ -26,9 +26,7 @@
 .column {
     float: left;
     padding-left: 1%;
-    padding-right: 1%;
-    text-align: left;
-    text-align: right;    
+    padding-right: 1%;   
 }
 
 .image {
@@ -37,8 +35,8 @@
     padding-right: 25%;
 }
 
-.header {
+.bottom {
     background-color: #23FF00;
     text-align: center;
-    padding: 20px;
+    padding: 10.5px;
 }
