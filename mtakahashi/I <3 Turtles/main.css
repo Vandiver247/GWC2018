@@ -10,8 +10,14 @@
 }
 
 .topnav a {
+<<<<<<< HEAD
+    float: left;
+    display: block;
+    color: #F2F2F2;
+=======
     display: block;
     color: #23FF00;
+>>>>>>> c3372071ec1490494438f428be3c7201e55df5d2
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,6 +30,18 @@
 
 .column {
     float: left;
+<<<<<<< HEAD
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.column.side {
+    width: 48%;
+}
+
+.image {
+    
+=======
     width: 50%;
 }
 
@@ -37,4 +55,5 @@
     background-color: #23FF00;
     text-align: center;
     padding: 10.25px;
+>>>>>>> c3372071ec1490494438f428be3c7201e55df5d2
 }
