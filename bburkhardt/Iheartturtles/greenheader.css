@@ -32,13 +32,15 @@ a:active {
     color: blue;
 }
 
-.column {
+.columnleft {
     float: left;
+    width: 25%;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-.column.side {
+.columnright {
+    float: right;
     width: 23%;
 }
 
