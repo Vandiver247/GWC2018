@@ -1,0 +1,36 @@
+.headers {
+    background-color: #56ff30;
+    text-align: center;
+    padding:15px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #383737;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #56ff30;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color:black;
+}
+
+.column{
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 49%;
+}
+
+.bottom {
+    background-color: #56ff30;
+    text-align: center;
+    padding: 5px;
+}
