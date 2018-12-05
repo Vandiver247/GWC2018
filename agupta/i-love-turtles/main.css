@@ -1,5 +1,5 @@
 .header {
-    background-color: #00FF04;
+    background-color: #00FF00;
     text-align: center;
     padding: 20px;
 }
@@ -24,7 +24,7 @@
 }
 
 .column {
-    float: left;
+    float: center;
     padding-left: 1%;
     padding-right: 1%;
 }
