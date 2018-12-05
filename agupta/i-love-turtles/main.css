@@ -31,7 +31,8 @@
 
 .image {
     text-align: center;
-    height: 400px;
+    max-width: 48%;
+    max-height: 48%;
 }
 
 .footer {
