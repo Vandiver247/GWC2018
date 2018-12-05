@@ -41,11 +41,13 @@
 
 .column.side {
     width:50%;
+    float:left;
 }
 
 .column.right {
     width:50%;
     float:right;
+    float: top;
 }
 .footer {
    background-color: #4bf442;
