@@ -32,7 +32,7 @@
         </div>
         <div class="turtle-form">
             Volunteer name:<br/>
-            <input type="text" name="volunteer_name" /><br/>
+            <input type="text" name="volunteername" /><br/>
             Reason why you are saving the turtles:<br/>
             <input type="text" name="reason" /><br/>
             <input type="submit" value="Register Turtle"/>
@@ -40,5 +40,12 @@
         <div class="footer">
           <h3>Please help protect turtles.</h3>
         </div>
+        <script>
+            function showResults() {
+                var volunteer = document.forms["turtle-form"].elements["volunteername"].value;
+                window.alert("Congrats: " + volunteer + " for helping stop the Death Race!");
+                //Congrats: Thanks a for helping stop the Death Race!
+            }
+        </script>
     </body>
 </html>
