@@ -1,0 +1,12 @@
+.column{
+    float:left;
+    padding-left:1%;
+    padding-right:1%;
+}
+
+.column.side {
+    width:23%;
+}
+.column.middle {
+    width:48%;
+}
