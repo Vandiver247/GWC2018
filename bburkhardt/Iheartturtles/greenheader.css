@@ -19,6 +19,9 @@
     padding: 14px 16px;
     text-decoration: none;
 }
+a:link {
+    color: #77FF38;
+}
 
 a:hover {
     color: hotpink;
