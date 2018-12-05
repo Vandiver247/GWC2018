@@ -42,6 +42,13 @@
                 <input type="text" name="ownername"/><br/>
                 <input type="submit" value="Register Turtle" onclick="showResults()"/>
             </form>
+            
+            <script>
+            function showResults() {
+                var formElements = document.forms["turtleinfo"].elements["turtlename"].value;
+                window.alert("Congrats: Turtle " + formElements + " for helping stop the death race!");
+            }
+        </script>
         </div>
        <div class="footer">
            <h3>Please help save turtles</h3>
