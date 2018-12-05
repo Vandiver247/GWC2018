@@ -27,17 +27,12 @@
     float: left;
     padding-left: 1%;
     padding-right: 1%;
-}
-
-.column.side {
-    width: 48%;
-    height: 48%;
     text-align: left;
     text-align: right;    
 }
 
 .image {
-    position: center;
+    width: 48%;
     padding-left: 25%;
     padding-right: 25%;
 }
