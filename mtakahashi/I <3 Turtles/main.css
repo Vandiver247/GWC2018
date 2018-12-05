@@ -31,6 +31,7 @@
 
 .column.side {
     width: 48%;
+    height: 48&;
 }
 
 .column.left {
@@ -44,4 +45,10 @@
     position: center;
     padding-left: 25%;
     padding-right: 25%;
+}
+
+.header {
+    background-color: #23FF00;
+    text-align: center;
+    padding: 20px;
 }
