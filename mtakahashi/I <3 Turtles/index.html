@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <meta charset="utf-8">
+        <title>Turtles are Kewl</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>I <3 Turtles</h1>
+        </div>
+        <div class="topnav">
+            <a href="">Turtles</a>
+            <a href="">More Turtles</a>
+            <a href="">Even More Turtles</a>
+            <a href="">Why Turtles should not be in the death races</a>
+            <a href="">Why Turtles are cooler than Justin</a>
+        </div>
+        <div class="column">
+            <h3>Why Turtles are Awesome</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae imperdiet ex, in gravida quam. Nunc molestie aliquam porttitor. Pellentesque pretium egestas purus, sit amet varius turpis varius id. Curabitur vel quam ultricies est aliquet cursus. Maecenas ultrices fermentum mi ac iaculis. Nunc nunc tortor, tincidunt ut tortor maximus, luctus condimentum nibh. Curabitur magna nibh, pharetra feugiat nibh nec, tempus elementum nibh. Sed maximus, purus in fringilla lobortis, nulla sem laoreet dui, vel accumsan tellus arcu nec eros. Vivamus finibus, mi id facilisis fermentum, magna libero scelerisque mi, non pulvinar ipsum lorem eget urna. Sed tempor ipsum mi, vitae elementum dui dapibus ac.
+            </p>
+        </div>
+        <div class="column">
+            <h3>Why Turtles have been put to death races</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae imperdiet ex, in gravida quam. Nunc molestie aliquam porttitor. Pellentesque pretium egestas purus, sit amet varius turpis varius id. Curabitur vel quam ultricies est aliquet cursus. Maecenas ultrices fermentum mi ac iaculis. Nunc nunc tortor, tincidunt ut tortor maximus, luctus condimentum nibh. Curabitur magna nibh, pharetra feugiat nibh nec, tempus elementum nibh. Sed maximus, purus in fringilla lobortis, nulla sem laoreet dui, vel accumsan tellus arcu nec eros. Vivamus finibus, mi id facilisis fermentum, magna libero scelerisque mi, non pulvinar ipsum lorem eget urna. Sed tempor ipsum mi, vitae elementum dui dapibus ac.
+            </p>
+        </div>
+        <div class="image">
+            <img src="https://i1.wp.com/img2.wikia.nocookie.net/__cb20071108213148/pixar/images/6/6d/Crush.jpg">
+        </div>
+        <div class="turtleform">
+            <form id="turtleinfo">
+                Volunteer name:<br/>
+                <input type="text" name="volunteername"/><br/>
+                Reason why you are saving the turtles:<br/>
+                <input type="text" name="reason"/><br/>
+                <input type="submit" value="Register Turtle" onclick="showResults()"/>
+            </form>
+        </div>
+        <script>
+            function showResults() {
+                var formElements = document.forms["turtleinfo"].elements["volunteername"].value;
+                var formElements2 = document.forms["turtleinfo"].elements["reason"].value;
+                window.alert("Thanks " + formElements + " for helping stop the Death Race.");
+            }
+        </script>
+        <div class="bottom">
+            <h3>Please help protect turtles.</h1>
+        </div>
+    </body>
+</html>
