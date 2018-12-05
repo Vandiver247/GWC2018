@@ -27,6 +27,14 @@
     width: 48%;
 }
 
+.image {
+    width: 48%;
+    padding-left: 26%;
+    padding-right: 26%;
+    max-width:50%;
+    max-height:50%;
+}
+
 .bottom {
     background-color: #23FF00;
     text-align: center;
