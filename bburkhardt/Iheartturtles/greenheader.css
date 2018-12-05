@@ -15,6 +15,8 @@ p {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    text-align: center;
+    padding: 10px;
 }
 
 .topnav a {
@@ -28,7 +30,8 @@ p {
 
 a:hover {
     color: hotpink;
-    
+  }  
     /* selected link */
 a:active {
     color: blue;
+}

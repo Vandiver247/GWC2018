@@ -9,4 +9,7 @@
     padding: 20px;
     color: #77ff38;
 }
-
+.Black a:hover {
+    background-color: #ddd;
+    color: 000000;
+}
