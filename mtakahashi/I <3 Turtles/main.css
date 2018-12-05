@@ -12,7 +12,7 @@
 .topnav a {
     float: left;
     display: block;
-    color: #F2F2F2;
+    color: #23FF00;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,13 +31,8 @@
 
 .column.side {
     width: 48%;
-    height: 48&;
-}
-
-.column.left {
+    height: 48%;
     text-align: left;
-}
-.column.right {
     text-align: right;    
 }
 
