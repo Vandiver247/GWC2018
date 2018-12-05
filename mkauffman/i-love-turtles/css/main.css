@@ -35,14 +35,15 @@
 
 .turtle_image {
     /*display: block;
-    margin: auto;
+    margin: auto;*/
     width: 50%;
-    text-align: center;*/
+    /*text-align: center;*/
     /*padding: 10px;*/
-        display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;   
+    float: center;
+    display: block;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*width: 50%*/;   
 }
 
 .footer {
