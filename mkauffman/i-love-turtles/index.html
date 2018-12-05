@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="css/main.css">
         <meta charset="utf-8">
         <title>Turtles are Kewl</title>
     </head>
@@ -28,17 +29,26 @@
           </p>
         </div>
         <div class="turtle_image">
-            <img src="https://i1.wp.com/img2.wikia.nocookie.net/__cb20071108213148/pixar/images/6/6d/Crush.jpg" alt="Crush is an awesome turtle">
+            <img src="https://i1.wp.com/img2.wikia.nocookie.net/__cb20071108213148/pixar/images/6/6d/Crush.jpg" alt="Crush is an awesome turtle" size="150%">
         </div>
         <div class="turtle-form">
-            Volunteer name:<br/>
-            <input type="text" name="volunteer_name" /><br/>
-            Reason why you are saving the turtles:<br/>
-            <input type="text" name="reason" /><br/>
-            <input type="submit" value="Register Turtle"/>
+            <form id="turtleinfo">
+                Volunteer name:<br/>
+                <input type="text" name="volunteername" /><br/>
+                Reason why you are saving the turtles:<br/>
+                <input type="text" name="reason" /><br/>
+                <input type="submit" value="Register Turtle" onclick="showResults()"/>
+            </form>
         </div>
         <div class="footer">
           <h3>Please help protect turtles.</h3>
         </div>
+        <script>
+            function showResults() {
+                var volunteer = document.forms["turtleinfo"].elements["volunteername"].value;
+                window.alert("Congrats: " + volunteer + " for helping stop the Death Race!");
+                //Congrats: Thanks a for helping stop the Death Race!
+            }
+        </script>
     </body>
 </html>
