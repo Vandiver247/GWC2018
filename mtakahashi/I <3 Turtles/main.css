@@ -10,7 +10,6 @@
 }
 
 .topnav a {
-    float: left;
     display: block;
     color: #23FF00;
     text-align: center;
@@ -27,6 +26,7 @@
     float: left;
     padding-left: 1%;
     padding-right: 1%;   
+    width: 48%;
 }
 
 .image {
