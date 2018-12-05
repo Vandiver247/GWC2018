@@ -1,4 +1,4 @@
-.header {
+.headers {
     background-color: #56ff30;
     text-align: center;
     padding:15px;
@@ -29,8 +29,8 @@
     width: 49%;
 }
 
-.footer {
+.bottom {
     background-color: #56ff30;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
