@@ -44,3 +44,8 @@
     text-align: center;
     padding: 10px;
 }
+
+.img {
+    width: 80%;
+    float: center;
+}
