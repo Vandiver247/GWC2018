@@ -1,5 +1,5 @@
 .header{
-    background-color: #F1F1F1;
+    background-color: #23FF00;
     text-align: center;
     padding: 20px;
 }
@@ -10,9 +10,8 @@
 }
 
 .topnav a {
-    float: left;
     display: block;
-    color: #f2f2f2;
+    color: #23FF00;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,8 +26,5 @@
     float: left;
     padding-left: 1%;
     padding-right: 1%;
-}
-
-.column.side {
     width: 48%;
 }
