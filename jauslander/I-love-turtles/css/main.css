@@ -15,7 +15,7 @@
     display: block;
     color:#00ff2e;
     text-align: center;
-    padding: 14px 16px;
+    padding: 6px 16px;
     text-decoration: none;
 }
 
@@ -25,21 +25,27 @@
 }
 
 .column.side{
-    float: right;
+    width: 48%;
+    float: left;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-.column.right a {
-    width: 23%;
+.column.right {
+    width: 48%;
     float: right;
     padding-left: 1%;
     padding-right: 1%;
 }
-
 
 .footer {
+    overflow: hidden;
     background-color: #00ff2e;
     text-align: center;
     padding: 10px;
+}
+
+.img {
+    width: 80%;
+    float: center;
 }
