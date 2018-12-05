@@ -25,12 +25,17 @@
 
 .column {
     float: left;
-    padding-left: 1%;
-    padding-right: 1%;
+    /*padding-left: 1%;
+    padding-right: 1%;*/
 }
 
 .column.side {
-    width: 23%;
+    width: 50%;
+}
+
+.turtle_image {
+    text-align: center;
+    padding: 10px;
 }
 
 .footer {

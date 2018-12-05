@@ -25,3 +25,10 @@ p {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+a:hover {
+    color: hotpink;
+    
+    /* selected link */
+a:active {
+    color: blue;
