@@ -39,7 +39,7 @@
 }
 
 .img {
-    overflow: hidden;
+    width:98%;
     float: center;
     padding-left: 1%;
     padding-right: 1%;
