@@ -1,5 +1,5 @@
 .header {
-    background-color: #00FF00;
+    background-color: #00FF04;
     text-align: center;
     padding: 20px;
 }
@@ -32,13 +32,8 @@
 .column.side {
     width: 33%;
 }
-
-.column.middle {
-    width: 33%;
-}
-
 .footer {
-    background-color: #F1F1F1;
+    background-color: #00FF00;
     text-align: center;
     padding: 10px;
 }
