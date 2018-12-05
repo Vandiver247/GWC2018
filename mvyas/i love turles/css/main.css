@@ -40,12 +40,14 @@
 }
 
 .column.side {
-    width:50%;
+    width:48%;
+    float:left;
 }
 
 .column.right {
-    width:50%;
+    width:48%;
     float:right;
+
 }
 .footer {
    background-color: #4bf442;
