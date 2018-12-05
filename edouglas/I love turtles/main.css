@@ -29,6 +29,10 @@
     padding-right: 1%;
 }
 
-.column.side {
+.column.left{
+    width: 48%;
+}
+
+.column.right{
     width: 48%;
 }
