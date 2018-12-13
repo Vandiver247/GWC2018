@@ -27,6 +27,20 @@
                 <input type="radio" name="How" value="$42"/><br/>
                 <input type="radio" name="How" value="25"/><br/>
                 <input type="radio" name="How" value="236"/><br/>
+                How would you like to pay:<br/>
+                <input type="radio" name="How" value="credit card" checked/><br/>
+                <input type="radio" name="How" value="money"/><br/>
+                If money please pay whenn you got to the store:<br/>
+                If credit card enter number here:<br/>
+                <input type="text" name="If credit card enter number here"/><br/>
+                <input type="submit" value=Submit onclick="showResults()">
             </form>
+            </div>
+            <script>
+            function showResults(){
+                var formElements= document.forms["Horseinfo"].elements["Horsematerials"].value;
+                window.alert("Congrats Anonymos" + formElements + "you have successfully paid for your item!");
+            }
+        </script>
     </body>   
 </html>
