@@ -8,16 +8,16 @@
     overflow: hidden;
     background-color: #000000;
 }
-.Black {
+.Black a{
     float: center;
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 5px 20px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
-.Black:hover {
+.Black a:hover {
     background-color: #ddd;
     color: #000000;
 }
