@@ -19,14 +19,16 @@
         x.classList.toggle("change");
     }
     </script>
-    <button class="accordion">Menu</button>
+    <button class="topnav accordion">Menu</button>
      <div class="panel">
        <div class="topnav accordion">
         <a href="">Register</a><br/>
-        <button class="accordion">Volunteer</button>
+       <button class="topnav accordion">Volunteer</button>
         <div class="panel">
+          <div class="topnav accordion">
           <a href="">Volunteer Info</a><br/>
           <a href="">Sign Up</a><br/>
+          </div>
         </div>
         <a href="">Important Events</a><br/>
         <div class="panel">
@@ -47,16 +49,10 @@
           panel.style.display = "none";
         } else {
           panel.style.display = "block";
+        }
+      });
     }
-  });
-}
-</script>
-    <div class="topnav accordion">
-      <a href="">Register</a><br/>
-      <a href="">Volunteer</a><br/>
-      <a href="">Important Events</a><br/>
-      <a href="">About Us</a><br/>
-    </div>
+    </script>
     <div class="column">
       <h2>Hindi USA</h2>
       <div image>
