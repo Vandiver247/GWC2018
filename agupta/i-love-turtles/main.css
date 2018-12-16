@@ -30,8 +30,9 @@
 }
 
 .image {
-    margin-left: absolute;
-    margin-right: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     
 }
 
