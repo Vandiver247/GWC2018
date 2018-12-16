@@ -10,7 +10,15 @@
     <div class="header">
       <h1>Basking Ridge Hindi School</h1>
     </div>
-    <div class="icon-bar">
+    <div class="sidenav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="main">
+      <div class="icon-bar">
       <a class="active" href="#"><i class="fa fa-home"></i></a> 
       <a href="#"><i class="fa fa-search"></i></a> 
       <a href="#"><i class="fa fa-envelope"></i></a> 
@@ -110,31 +118,32 @@
         Hindi USA has a total of 21 schools, with 15 in New Jersey, 4 in Connecticut, and 1 in both Maryland & Massachusetts. It is one of the largest Hindi volunteer groups in America consisting of over 4,000 members.  Hindi USA is a non-profit and a completely volunteer based organization in the US.
       </p>
     </div>
-    <div class="column">
-      <h3>Basking Ridge Hindi School</h3><br/>
-      <img src="IMG_20181209_181629.jpg" width="150" height="115" alt="Image not able to load...">
-      <p>
-        Dr. Sanjay Gupta established the Basking Ridge Hindi School in September, 2017. In our first year we accumulated over 60 students which was the highest enrollment record to date. We have 12 volunteers for our classes and 3 youth volunteers, Two of the youth volunteers are in RHS and one in WAMS.
-      </p><br/>
-    </div>
-    <div class="turtleform">
-          <form id="turtleinfo">
-              <br/>Volunteer Name:<br/>
-              <input type="text" name="Volunteername"/><br/>
-              Reason why you are saving the turtles::<br/>
-              <input type="text" name="Reasons"/><br/>
-              <input type="submit" value="Register Turtle" onClick="showResults()"/>
-          </form>
+      <div class="column">
+        <h3>Basking Ridge Hindi School</h3><br/>
+        <img src="IMG_20181209_181629.jpg" width="150" height="115" alt="Image not able to load...">
+        <p>
+          Dr. Sanjay Gupta established the Basking Ridge Hindi School in September, 2017. In our first year we accumulated over 60 students which was the highest enrollment record to date. We have 12 volunteers for our classes and 3 youth volunteers, Two of the youth volunteers are in RHS and one in WAMS.
+        </p>
       </div>
-      <script>
-          function showResults() {
-              var formElements = document.forms["turtleinfo"].elements["Volunteername"].value;
-              var formElementsTwo = document.forms["turtleinfo"].elements["Reasons"].value;
-              window.alert("Thanks " + formElements + " for helping stop the Death Race!");
+      <div class="turtleform">
+            <form id="turtleinfo">
+                <br/>Volunteer Name:<br/>
+                <input type="text" name="Volunteername"/><br/>
+                Reason why you are saving the turtles::<br/>
+                <input type="text" name="Reasons"/><br/>
+                <input type="submit" value="Register Turtle" onClick="showResults()"/>
+            </form>
+        </div>
+        <script>
+            function showResults() {
+                var formElements = document.forms["turtleinfo"].elements["Volunteername"].value;
+                var formElementsTwo = document.forms["turtleinfo"].elements["Reasons"].value;
+                window.alert("Thanks " + formElements + " for helping stop the Death Race!");
           }
-      </script>
-      <div class="footer">
-      <h3>Please help protect turtles.</h3>
+        </script>
+        <div class="footer">
+        <h3>Please help protect turtles.</h3>
+      </div>
     </div>
   </body>
 </html>
