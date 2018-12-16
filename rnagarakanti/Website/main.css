@@ -5,9 +5,8 @@
 }
 
 .Black {
-    background-color: #000000;
     overflow: hidden;
-    
+    background-color: #000000;
 }
 .Black {
     float: center;
@@ -16,4 +15,9 @@
     text-align: center;
     padding: 5px 20px;
     text-decoration: none;
+}
+
+.Black:hover {
+    background-color: #ddd;
+    color: #000000;
 }
