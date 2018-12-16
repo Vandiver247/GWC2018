@@ -1,7 +1,8 @@
 .header {
-    background-color: #FFA500;
+    background: linear-gradient(to bottom, #33cc33 0%, #ff6600 100%);
+    color: #0000FF;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .topnav {
@@ -11,7 +12,7 @@
 .topnav a {
     float: center;
     display: block;
-    color: #00FF00;
+    color: #0000FF;
     text-align: center;
     padding: 6px;
     text-decoration: none;
