@@ -28,34 +28,22 @@
           x.classList.toggle("change");
       }
       </script>
-
-    <script>
-    function openNav() {
-      document.getElementById("mySidepanel").style.width = "250px";
-    }
-
-    function closeNav() {
-      document.getElementById("mySidepanel").style.width = "0";
-    }
-    </script>
-
-    <div class="main">
-       <div class="panel">
-         <div class="topnav accordion">
+      <div class="panel">
+         <div class="sidepanel accordion">
           <a href="">Register</a><br/>
          </div>
        </div>
-       <button class="topnav accordion">Volunteer</button>
-          <div class="topnav accordion">
+       <button class="sidepanel accordion">Volunteer</button>
+          <div class="sidepanel accordion">
           <a href="">Volunteer Info</a><br/>
           <a href="">Sign Up</a><br/>
           </div>
         </div>
-        <button class="topnav accordion">Important Events</button>
+        <button class="sidepanel accordion">Important Events</button>
         <div class="panel">
           <a href="">Diwali Celebrations</a><br/>
           <a href="">Kavita Paath Pratiyogita(KPP)</a><br/>
-          <button class="topnav accordion">Appreciation Events</button>
+          <button class="sidepanel accordion">Appreciation Events</button>
           <div class="panel">
             <a href="">Teacher Appreciation</a><br/>
             <a href="">Youth Volunteer Appreciation</a><br/>
@@ -64,11 +52,11 @@
           <a href="">Karmbhoomi(Magazine)</a><br/>
           <a href="">Graduation Ceremony</a><br/>
         </div>
-        <button class="topnav accordion">About Us</button>
+        <button class="sidepanel accordion">About Us</button>
         <div class="panel">
           <a href="">Hindi USA</a><br/>
           <a href="">Dr. Sanjay Gupta</a><br/>
-          <button class="topnav accordion">Teacher Volunteers</button>
+          <button class="sidepanel accordion">Teacher Volunteers</button>
           <div class="panel">
             <a href="">Dr. Sanjay Gupta </a><br/>
             <a href="">Anubhuti Sharma</a><br/>
@@ -81,17 +69,15 @@
             <a href="">Melindah Rhushang</a><br/>
             <a href="">Vina Murthy</a><br/>
           </div>
-          <button class="topnav accordion">Youth Volunteers</button>
+          <button class="sidepanel accordion">Youth Volunteers</button>
           <div class="panel">
             <a href="">Anusha Gupta</a><br/>
             <a href="">Arnav Gupta</a><br/>
             <a href="">Vidhi Jha</a><br/>
           </div>
-          <button class="topnav accordion">General Volunteers</button>
+          <button class="sidepanel accordion">General Volunteers</button>
           <div class="panel">
             <a href="">Raj Kumar</a><br/>
-            <a href="">Arnav Gupta</a><br/>
-            <a href="">Vidhi Jha</a><br/>
           </div>
         </div>
        </div>
@@ -113,38 +99,48 @@
       });
     }
     </script>
-    <div class="column">
-      <h2>Hindi USA</h2>
-      <div image>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6_TYniCoxMKhh9u-5C3CDr5AS2cDxZqeNUb1NbtxV-BCIjoBj" width="150" height="115"
-        alt="Image not able to load...">
-      </div>
-      <p>
-        Hindi USA has a total of 21 schools, with 15 in New Jersey, 4 in Connecticut, and 1 in both Maryland & Massachusetts. It is one of the largest Hindi volunteer groups in America consisting of over 4,000 members.  Hindi USA is a non-profit and a completely volunteer based organization in the US.
-      </p>
-    </div>
+    <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    }
+    </script>
+
+    <div class="main">
       <div class="column">
-        <h3>Basking Ridge Hindi School</h3><br/>
-        <img src="IMG_20181209_181629.jpg" width="150" height="115" alt="Image not able to load...">
+        <h2>Hindi USA</h2>
+        <div image>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6_TYniCoxMKhh9u-5C3CDr5AS2cDxZqeNUb1NbtxV-BCIjoBj" width="150" height="115" alt="Image not able to load...">
+        </div>
         <p>
-          Dr. Sanjay Gupta established the Basking Ridge Hindi School in September, 2017. In our first year we accumulated over 60 students which was the highest enrollment record to date. We have 12 volunteers for our classes and 3 youth volunteers, Two of the youth volunteers are in RHS and one in WAMS.
+          Hindi USA has a total of 21 schools, with 15 in New Jersey, 4 in Connecticut, and 1 in both Maryland & Massachusetts. It is one of the largest Hindi volunteer groups in America consisting of over 4,000 members.  Hindi USA is a non-profit and a completely volunteer based organization in the US.
         </p>
       </div>
-      <div class="turtleform">
-            <form id="turtleinfo">
-                <br/>Volunteer Name:<br/>
-                <input type="text" name="Volunteername"/><br/>
-                Reason why you are saving the turtles::<br/>
-                <input type="text" name="Reasons"/><br/>
-                <input type="submit" value="Register Turtle" onClick="showResults()"/>
-            </form>
+        <div class="column">
+          <h3>Basking Ridge Hindi School</h3><br/>
+          <img src="IMG_20181209_181629.jpg" width="150" height="115" alt="Image not able to load...">
+          <p>
+            Dr. Sanjay Gupta established the Basking Ridge Hindi School in September, 2017. In our first year we accumulated over 60 students which was the highest enrollment record to date. We have 12 volunteers for our classes and 3 youth volunteers, Two of the youth volunteers are in RHS and one in WAMS.
+          </p>
+        </div>
+        <div class="turtleform">
+          <form id="turtleinfo">
+            Volunteer Name:<br/>
+            <input type="text" name="Volunteername"/><br/>
+            Reason why you are saving the turtles::<br/>
+            <input type="text" name="Reasons"/><br/>
+            <input type="submit" value="Register Turtle" onClick="showResults()"/>
+          </form>
         </div>
         <script>
-            function showResults() {
-                var formElements = document.forms["turtleinfo"].elements["Volunteername"].value;
-                var formElementsTwo = document.forms["turtleinfo"].elements["Reasons"].value;
-                window.alert("Thanks " + formElements + " for helping stop the Death Race!");
-          }
+         function showResults() {
+          var formElements = document.forms["turtleinfo"].elements["Volunteername"].value;
+          var formElementsTwo = document.forms["turtleinfo"].elements["Reasons"].value;
+          window.alert("Thanks " + formElements + " for helping stop the Death Race!");
+         }
         </script>
         <div class="footer">
         <h3>Please help protect turtles.</h3>
