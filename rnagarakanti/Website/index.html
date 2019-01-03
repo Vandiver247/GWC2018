@@ -41,3 +41,17 @@
         what are you supposed to do with it? Down below 
         is a form you can sign out to possibly enroll in <br/>
         one or maybe all of those clubs.</p>
+        
+ <form id="clubinfo">
+                    Your Name:<br/>
+                    <input type="text" name="yourname"/><br/>
+                    Which Club Will You Be Joining:<br/>
+                    <input type="text" name="clubjoining"/><br/>
+                    <input type="submit" value="Apply For Club" onclick="showResults()"/>
+                </form>
+<script>
+            function showResults() {
+                var formElements = document.forms["clubinfo"].elements["yourname"].value;
+                window.alert("Thanks " + formElements + " for enrolling in the clubs!");
+            }
+        </script>
