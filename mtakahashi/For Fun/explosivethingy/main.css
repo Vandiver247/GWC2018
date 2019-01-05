@@ -5,8 +5,8 @@
 }
 
 .topnav {
-    overflow: hidden;
-    background-color: #404040;
+  overflow: hidden;
+  background-color: #404040;
 }
 
 .topnav a {
@@ -24,11 +24,15 @@
 }
 
 .column {
-
+    float: left;
+    width: 23%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .column.side {
-
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .welcome {
