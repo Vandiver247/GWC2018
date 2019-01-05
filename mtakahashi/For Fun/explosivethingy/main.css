@@ -24,13 +24,7 @@
 }
 
 .column {
-    float: left;
-    width: 23%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.column.side {
+  width: 23%;
   padding-left: 5%;
   padding-right: 5%;
 }
