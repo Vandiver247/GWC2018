@@ -4,7 +4,7 @@ client = boto3.client('cloud9')
 
 response = client.list_environments()
 
-reponse = client.list_environments(
+response = client.list_environments(
     nextToken=response['nextToken']
 )
 
