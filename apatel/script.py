@@ -4,7 +4,11 @@ client = boto3.client('cloud9')
 
 response = client.list_environments()
 
-print response
+reponse = client.list_environments(
+    nextToken=response['nextToken']
+)
+
+print len(response['environmentIds'])
 
 # response = client.create_environment_membership(
 #         environmentId='41ac563ec1af481e8b7dae28920b0352',
