@@ -7,14 +7,22 @@ client = boto3.client('cloud9')
 response = client.list_environments()
 
 for environment in response['environmentIds']:
-    env_data = client.describe_environment_memberships(environmentId=environment)
-    if len(env_data['memberships']) >= 8:
-        env_data = client.describe_environments(environmentIds=[environment])
-        print env_data['environments'][0]['name']
+    env_data = client.describe_environments(environmentIds=[environment])
+    name = env_data['environments'][0]['name'].lower
+    sections = str(name).split()
+    username = sections[0][0] + sections[1]
+    print username
 
+response = client.list_environments(
+    nextToken=response['nextToken']
+)
 
-
-
+for environment in response['environmentIds']:
+    env_data = client.describe_environments(environmentIds=[environment])
+    name = env_data['environments'][0]['name'].lower
+    sections = name.split()
+    username = sections[0][0] + sections[1]
+    print username
 
 
 
@@ -27,10 +35,6 @@ for environment in response['environmentIds']:
 #         )
     
 #         print response2
-
-# response = client.list_environments(
-#     nextToken=response['nextToken']
-# )
 
 # for user in users:
 #     for environment in response['environmentIds']:
