@@ -8,13 +8,13 @@ response = client.list_environments()
 
 for user in users:
     for environment in response['environmentIds']:
-        response = client.create_environment_membership(
+        response2 = client.create_environment_membership(
             environmentId=environment,
             userArn="arn:aws:iam::150404946404:user/" + user,
             permissions='read-write'
         )
     
-        print response
+        print response2
 
 response = client.list_environments(
     nextToken=response['nextToken']
@@ -22,10 +22,10 @@ response = client.list_environments(
 
 for user in users:
     for environment in response['environmentIds']:
-        response = client.create_environment_membership(
+        response2 = client.create_environment_membership(
             environmentId=environment,
             userArn="arn:aws:iam::150404946404:user/" + user,
             permissions='read-write'
         )
     
-        print response
+        print response2
