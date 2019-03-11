@@ -8,9 +8,13 @@ response = client.list_environments()
 
 for environment in response['environmentIds']:
     env_data = client.describe_environments(environmentIds=[environment])
-    name = env_data['environments'][0]['name'].lower
-    sections = str(name).split()
-    username = sections[0][0] + sections[1]
+    name = env_data['environments'][0]['name']
+    sections = str(name).lower().split()
+    username = ""
+    if sections[1] == "kleinle":
+        username = sections[0][0] + sections[0][1] + sections[1] + "1"
+    else:
+        username = sections[0][0] + sections[1] + "1"
     print username
 
 response = client.list_environments(
@@ -19,9 +23,13 @@ response = client.list_environments(
 
 for environment in response['environmentIds']:
     env_data = client.describe_environments(environmentIds=[environment])
-    name = env_data['environments'][0]['name'].lower
-    sections = name.split()
-    username = sections[0][0] + sections[1]
+    name = env_data['environments'][0]['name']
+    sections = str(name).lower().split()
+    username = ""
+    if sections[1] == "kleinle":
+        username = sections[0][0] + sections[0][1] + sections[1] + "1"
+    else:
+        username = sections[0][0] + sections[1] + "1"
     print username
 
 
